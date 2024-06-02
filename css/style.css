@@ -896,9 +896,85 @@ header .container {
   bottom: 0;
   background: linear-gradient(139deg, #dcbb8e -9.48%, #b08868 113.61%);
 }
-
 /* -- work area end -- */
 
 /* !==================================
     !Picture end
+!================================== */
+
+/* !==================================
+    !work start
+!================================== */
+
+/* -- workimages area start -- */
+#workimages .container {
+  max-width: 170rem;
+}
+
+.workimages_wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 2.4rem;
+  row-gap: 10rem;
+}
+
+.work_item_grid img {
+  display: block;
+  width: 100%;
+}
+
+#workimages {
+  padding: 10rem 0rem;
+  position: relative;
+}
+
+#workimages:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 0.2rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: linear-gradient(139deg, #dcbb8e -9.48%, #b08868 113.61%);
+}
+
+/* -- workimages area end -- */
+
+/* !==================================
+    !work end
+!================================== */
+
+/* !==================================
+    !films start
+!================================== */
+
+.films_item {
+  margin-top: 8rem;
+}
+
+.films_item iframe {
+  display: block;
+  width: 100%;
+  height: 75rem;
+}
+
+#films {
+  position: relative;
+  padding-bottom: 8rem;
+}
+
+#films:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 0.2rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: linear-gradient(139deg, #dcbb8e -9.48%, #b08868 113.61%);
+}
+
+/* !==================================
+    !films end
 !================================== */
