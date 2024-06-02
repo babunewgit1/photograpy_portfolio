@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 body {
   font-family: "Aminute";
   font-size: 16px;
@@ -760,7 +761,7 @@ header .container {
   font-size: 1.6rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 3rem;
 }
 /* -- pic_hero area end -- */
 
@@ -801,8 +802,102 @@ header .container {
   display: inline-block;
   width: 4rem;
 }
-
 /* -- pslider area end -- */
+
+/* -- work area start -- */
+#work {
+  padding: 8rem 0rem;
+  position: relative;
+}
+
+.work_number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.work_number p {
+  color: #8a8888;
+  font-size: 2.4rem;
+}
+
+.work_number span {
+  display: block;
+  width: 10rem;
+  height: 0.2rem;
+  background: #efefef;
+}
+
+.work_wrapper h2 {
+  color: #fff5dd;
+  text-align: center;
+  font-size: 6.6rem;
+  line-height: 1;
+  margin: 30px 0px;
+}
+
+.work_wrapper p {
+  color: #fde3a7;
+  text-align: center;
+  font-size: 1.6rem;
+  font-style: normal;
+}
+
+.work_item {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 8rem;
+}
+
+.workitem_left {
+  border: 1px solid #333;
+  padding: 11.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.workitem_left h2 {
+  color: #fff5dd;
+  text-align: center;
+  font-size: 4.8rem;
+  margin-bottom: 3rem;
+}
+
+.workitem_left p {
+  color: #fde3a7;
+  font-size: 1.6rem;
+  line-height: 3rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+.workitem_right {
+  padding: 0px 11.3rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.workitem_right img {
+  display: block;
+  width: 100%;
+}
+
+#work:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 0.2rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: linear-gradient(139deg, #dcbb8e -9.48%, #b08868 113.61%);
+}
+
+/* -- work area end -- */
 
 /* !==================================
     !Picture end

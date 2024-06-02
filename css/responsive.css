@@ -47,6 +47,11 @@ Medium Screen - Others
   .promise_block_wrapper {
     column-gap: 5rem;
   }
+
+  .workitem_left,
+  .workitem_right {
+    padding: 3rem;
+  }
 }
 
 /*
@@ -185,6 +190,19 @@ Small Screen - Tablate
 
   #contact {
     padding: 6rem 0rem;
+  }
+
+  .pic_hero_text {
+    width: 100%;
+  }
+
+  .work_wrapper p br {
+    display: none;
+  }
+
+  .workitem_left,
+  .workitem_right {
+    padding: 3rem;
   }
 }
 
@@ -366,6 +384,55 @@ Small Screen - Mobile
   .header_menu_work a {
     font-size: 2.8rem;
   }
+
+  .pic_hero_text {
+    width: 100%;
+  }
+
+  .pic_hero_text h2 {
+    font-size: 3.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .pic_hero_text p {
+    line-height: 1.7rem;
+  }
+
+  .pic_hero_text p br {
+    display: none;
+  }
+
+  .psnav span {
+    left: 4%;
+    top: 45%;
+  }
+
+  .psnav span#rightarrow {
+    left: inherit;
+    right: 4%;
+  }
+
+  #work {
+    padding: 5rem 0rem;
+  }
+
+  .work_wrapper h2 {
+    font-size: 3.6rem;
+    margin: 16px 0px;
+  }
+
+  .work_item {
+    margin-top: 5rem;
+    grid-template-columns: 1fr;
+  }
+
+  .workitem_left {
+    padding: 3rem;
+  }
+
+  .workitem_right {
+    padding: 3rem;
+  }
 }
 
 /*
@@ -545,5 +612,54 @@ Xtra Small Screen - Small Mobile
 
   .header_menu_work a {
     font-size: 2.8rem;
+  }
+
+  .pic_hero_text {
+    width: 100%;
+  }
+
+  .pic_hero_text h2 {
+    font-size: 3.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .pic_hero_text p {
+    line-height: 1.7rem;
+  }
+
+  .pic_hero_text p br {
+    display: none;
+  }
+
+  .psnav span {
+    left: 4%;
+    top: 45%;
+  }
+
+  .psnav span#rightarrow {
+    left: inherit;
+    right: 4%;
+  }
+
+  #work {
+    padding: 5rem 0rem;
+  }
+
+  .work_wrapper h2 {
+    font-size: 3.6rem;
+    margin: 16px 0px;
+  }
+
+  .work_item {
+    margin-top: 5rem;
+    grid-template-columns: 1fr;
+  }
+
+  .workitem_left {
+    padding: 3rem;
+  }
+
+  .workitem_right {
+    padding: 3rem;
   }
 }
