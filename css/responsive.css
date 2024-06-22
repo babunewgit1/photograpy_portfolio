@@ -222,7 +222,11 @@ Small Screen - Tablate
   }
 
   #films {
-    padding-bottom: 4rem;
+    padding-bottom: 0;
+  }
+
+  .film_one_wrapper video {
+    height: 43rem;
   }
 }
 
@@ -494,7 +498,11 @@ Small Screen - Mobile
   }
 
   #films {
-    padding-bottom: 4rem;
+    padding-bottom: 0;
+  }
+
+  .film_one_wrapper video {
+    height: 32rem;
   }
 }
 
@@ -744,6 +752,16 @@ Xtra Small Screen - Small Mobile
   }
 
   #films {
-    padding-bottom: 4rem;
+    padding-bottom: 0;
+    margin-top: 4rem;
+  }
+
+  .film_one_wrapper video {
+    height: 20rem;
+    margin-bottom: 3rem;
+  }
+
+  .films1slider {
+    margin-top: 5rem;
   }
 }

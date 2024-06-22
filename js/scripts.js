@@ -204,5 +204,157 @@
     $("#leftarrow").click(function () {
       owl3.trigger("prev.owl.carousel", [300]);
     });
+
+    $(".film1-slider").owlCarousel({
+      loop: true,
+      margin: 0,
+      center: true,
+      nav: false,
+      dots: true,
+      autoplay: false,
+      autoplayTimeout: 2000,
+      responsiveClass: true,
+      responsiveRefreshRate: true,
+      responsive: {
+        0: {
+          items: 1,
+        },
+        768: {
+          items: 1,
+        },
+        960: {
+          items: 1,
+        },
+        1200: {
+          items: 1,
+        },
+        1920: {
+          items: 1,
+        },
+      },
+    });
+
+    var film1 = $(".film1-slider");
+    film1.owlCarousel();
+    $(".film1right").click(function () {
+      film1.trigger("next.owl.carousel");
+    });
+    $(".film1left").click(function () {
+      film1.trigger("prev.owl.carousel", [300]);
+    });
+
+    $(".film2-slider").owlCarousel({
+      loop: true,
+      margin: 0,
+      center: true,
+      nav: false,
+      dots: true,
+      autoplay: false,
+      autoplayTimeout: 2000,
+      responsiveClass: true,
+      responsiveRefreshRate: true,
+      responsive: {
+        0: {
+          items: 1,
+        },
+        768: {
+          items: 1,
+        },
+        960: {
+          items: 1,
+        },
+        1200: {
+          items: 1,
+        },
+        1920: {
+          items: 1,
+        },
+      },
+    });
+
+    var film2 = $(".film2-slider");
+    film2.owlCarousel();
+    $(".film2right").click(function () {
+      film2.trigger("next.owl.carousel");
+    });
+    $(".film2left").click(function () {
+      film2.trigger("prev.owl.carousel", [300]);
+    });
+
+    $(".film3-slider").owlCarousel({
+      loop: true,
+      margin: 0,
+      center: true,
+      nav: false,
+      dots: true,
+      autoplay: false,
+      autoplayTimeout: 2000,
+      responsiveClass: true,
+      responsiveRefreshRate: true,
+      responsive: {
+        0: {
+          items: 1,
+        },
+        768: {
+          items: 1,
+        },
+        960: {
+          items: 1,
+        },
+        1200: {
+          items: 1,
+        },
+        1920: {
+          items: 1,
+        },
+      },
+    });
+
+    var film3 = $(".film3-slider");
+    film3.owlCarousel();
+    $(".film3right").click(function () {
+      film3.trigger("next.owl.carousel");
+    });
+    $(".film3left").click(function () {
+      film3.trigger("prev.owl.carousel", [300]);
+    });
+
+    $(".film4-slider").owlCarousel({
+      loop: true,
+      margin: 0,
+      center: true,
+      nav: false,
+      dots: true,
+      autoplay: false,
+      autoplayTimeout: 2000,
+      responsiveClass: true,
+      responsiveRefreshRate: true,
+      responsive: {
+        0: {
+          items: 1,
+        },
+        768: {
+          items: 1,
+        },
+        960: {
+          items: 1,
+        },
+        1200: {
+          items: 1,
+        },
+        1920: {
+          items: 1,
+        },
+      },
+    });
+
+    var film4 = $(".film4-slider");
+    film4.owlCarousel();
+    $(".film4right").click(function () {
+      film4.trigger("next.owl.carousel");
+    });
+    $(".film4left").click(function () {
+      film4.trigger("prev.owl.carousel", [300]);
+    });
   });
 })(jQuery);

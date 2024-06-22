@@ -961,7 +961,7 @@ header .container {
 
 #films {
   position: relative;
-  padding-bottom: 8rem;
+  margin-top: 8rem;
 }
 
 #films:after {
@@ -977,6 +977,29 @@ header .container {
 
 #work .container {
   max-width: 160rem;
+}
+
+.film_one .container {
+  max-width: 130rem;
+}
+
+.film_one_wrapper video {
+  display: block;
+  width: 100%;
+  height: 60rem;
+  margin-bottom: 8rem;
+}
+
+.work_number_black p {
+  color: #8a8888;
+}
+
+.films1slider {
+  margin-top: 10rem;
+}
+
+.filmsborder:after {
+  content: none !important;
 }
 
 /* !==================================
